@@ -7,13 +7,13 @@ As Quantopian is shutting down its Quantopian community platform, Quantopian are
 You will find that some of these algos have a funny stat of their name. Theses are the results from backtesting them including slippage and commisssion over a larger timeframe.
 
 Result header:
-  R = Return,    eg R195 = 195%
-  S = Sharpe,    eg S1.19 = Sharpe of 1.19
-  DD = Drawdown, eg DD13.15 = -13.5%
+* R = Return,    eg R195 = 195%
+* S = Sharpe,    eg S1.19 = Sharpe of 1.19
+* DD = Drawdown, eg DD13.15 = -13.5%
 
 Slippage / Commission used:
-  set_slippage(slippage.VolumeShareSlippage(volume_limit=0.025, price_impact=0.1))
-  set_commission(commission.PerShare(cost=0.005, min_trade_cost=1.0))
+* set_slippage(slippage.VolumeShareSlippage(volume_limit=0.025, price_impact=0.1))
+* set_commission(commission.PerShare(cost=0.005, min_trade_cost=1.0))
 
 ## Next Steps
 * Please contact me if you would like to get in touch to share and exchange trading ideas!
