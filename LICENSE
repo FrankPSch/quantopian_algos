@@ -1,674 +1,219 @@
-                    GNU GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
-
- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
-
-                            Preamble
-
-  The GNU General Public License is a free, copyleft license for
-software and other kinds of works.
-
-  The licenses for most software and other practical works are designed
-to take away your freedom to share and change the works.  By contrast,
-the GNU General Public License is intended to guarantee your freedom to
-share and change all versions of a program--to make sure it remains free
-software for all its users.  We, the Free Software Foundation, use the
-GNU General Public License for most of our software; it applies also to
-any other work released this way by its authors.  You can apply it to
-your programs, too.
-
-  When we speak of free software, we are referring to freedom, not
-price.  Our General Public Licenses are designed to make sure that you
-have the freedom to distribute copies of free software (and charge for
-them if you wish), that you receive source code or can get it if you
-want it, that you can change the software or use pieces of it in new
-free programs, and that you know you can do these things.
-
-  To protect your rights, we need to prevent others from denying you
-these rights or asking you to surrender the rights.  Therefore, you have
-certain responsibilities if you distribute copies of the software, or if
-you modify it: responsibilities to respect the freedom of others.
-
-  For example, if you distribute copies of such a program, whether
-gratis or for a fee, you must pass on to the recipients the same
-freedoms that you received.  You must make sure that they, too, receive
-or can get the source code.  And you must show them these terms so they
-know their rights.
-
-  Developers that use the GNU GPL protect your rights with two steps:
-(1) assert copyright on the software, and (2) offer you this License
-giving you legal permission to copy, distribute and/or modify it.
-
-  For the developers' and authors' protection, the GPL clearly explains
-that there is no warranty for this free software.  For both users' and
-authors' sake, the GPL requires that modified versions be marked as
-changed, so that their problems will not be attributed erroneously to
-authors of previous versions.
-
-  Some devices are designed to deny users access to install or run
-modified versions of the software inside them, although the manufacturer
-can do so.  This is fundamentally incompatible with the aim of
-protecting users' freedom to change the software.  The systematic
-pattern of such abuse occurs in the area of products for individuals to
-use, which is precisely where it is most unacceptable.  Therefore, we
-have designed this version of the GPL to prohibit the practice for those
-products.  If such problems arise substantially in other domains, we
-stand ready to extend this provision to those domains in future versions
-of the GPL, as needed to protect the freedom of users.
-
-  Finally, every program is threatened constantly by software patents.
-States should not allow patents to restrict development and use of
-software on general-purpose computers, but in those that do, we wish to
-avoid the special danger that patents applied to a free program could
-make it effectively proprietary.  To prevent this, the GPL assures that
-patents cannot be used to render the program non-free.
-
-  The precise terms and conditions for copying, distribution and
-modification follow.
-
-                       TERMS AND CONDITIONS
-
-  0. Definitions.
-
-  "This License" refers to version 3 of the GNU General Public License.
-
-  "Copyright" also means copyright-like laws that apply to other kinds of
-works, such as semiconductor masks.
-
-  "The Program" refers to any copyrightable work licensed under this
-License.  Each licensee is addressed as "you".  "Licensees" and
-"recipients" may be individuals or organizations.
-
-  To "modify" a work means to copy from or adapt all or part of the work
-in a fashion requiring copyright permission, other than the making of an
-exact copy.  The resulting work is called a "modified version" of the
-earlier work or a work "based on" the earlier work.
-
-  A "covered work" means either the unmodified Program or a work based
-on the Program.
-
-  To "propagate" a work means to do anything with it that, without
-permission, would make you directly or secondarily liable for
-infringement under applicable copyright law, except executing it on a
-computer or modifying a private copy.  Propagation includes copying,
-distribution (with or without modification), making available to the
-public, and in some countries other activities as well.
-
-  To "convey" a work means any kind of propagation that enables other
-parties to make or receive copies.  Mere interaction with a user through
-a computer network, with no transfer of a copy, is not conveying.
-
-  An interactive user interface displays "Appropriate Legal Notices"
-to the extent that it includes a convenient and prominently visible
-feature that (1) displays an appropriate copyright notice, and (2)
-tells the user that there is no warranty for the work (except to the
-extent that warranties are provided), that licensees may convey the
-work under this License, and how to view a copy of this License.  If
-the interface presents a list of user commands or options, such as a
-menu, a prominent item in the list meets this criterion.
-
-  1. Source Code.
-
-  The "source code" for a work means the preferred form of the work
-for making modifications to it.  "Object code" means any non-source
-form of a work.
-
-  A "Standard Interface" means an interface that either is an official
-standard defined by a recognized standards body, or, in the case of
-interfaces specified for a particular programming language, one that
-is widely used among developers working in that language.
-
-  The "System Libraries" of an executable work include anything, other
-than the work as a whole, that (a) is included in the normal form of
-packaging a Major Component, but which is not part of that Major
-Component, and (b) serves only to enable use of the work with that
-Major Component, or to implement a Standard Interface for which an
-implementation is available to the public in source code form.  A
-"Major Component", in this context, means a major essential component
-(kernel, window system, and so on) of the specific operating system
-(if any) on which the executable work runs, or a compiler used to
-produce the work, or an object code interpreter used to run it.
-
-  The "Corresponding Source" for a work in object code form means all
-the source code needed to generate, install, and (for an executable
-work) run the object code and to modify the work, including scripts to
-control those activities.  However, it does not include the work's
-System Libraries, or general-purpose tools or generally available free
-programs which are used unmodified in performing those activities but
-which are not part of the work.  For example, Corresponding Source
-includes interface definition files associated with source files for
-the work, and the source code for shared libraries and dynamically
-linked subprograms that the work is specifically designed to require,
-such as by intimate data communication or control flow between those
-subprograms and other parts of the work.
-
-  The Corresponding Source need not include anything that users
-can regenerate automatically from other parts of the Corresponding
-Source.
-
-  The Corresponding Source for a work in source code form is that
-same work.
-
-  2. Basic Permissions.
-
-  All rights granted under this License are granted for the term of
-copyright on the Program, and are irrevocable provided the stated
-conditions are met.  This License explicitly affirms your unlimited
-permission to run the unmodified Program.  The output from running a
-covered work is covered by this License only if the output, given its
-content, constitutes a covered work.  This License acknowledges your
-rights of fair use or other equivalent, as provided by copyright law.
-
-  You may make, run and propagate covered works that you do not
-convey, without conditions so long as your license otherwise remains
-in force.  You may convey covered works to others for the sole purpose
-of having them make modifications exclusively for you, or provide you
-with facilities for running those works, provided that you comply with
-the terms of this License in conveying all material for which you do
-not control copyright.  Those thus making or running the covered works
-for you must do so exclusively on your behalf, under your direction
-and control, on terms that prohibit them from making any copies of
-your copyrighted material outside their relationship with you.
-
-  Conveying under any other circumstances is permitted solely under
-the conditions stated below.  Sublicensing is not allowed; section 10
-makes it unnecessary.
-
-  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
-
-  No covered work shall be deemed part of an effective technological
-measure under any applicable law fulfilling obligations under article
-11 of the WIPO copyright treaty adopted on 20 December 1996, or
-similar laws prohibiting or restricting circumvention of such
-measures.
-
-  When you convey a covered work, you waive any legal power to forbid
-circumvention of technological measures to the extent such circumvention
-is effected by exercising rights under this License with respect to
-the covered work, and you disclaim any intention to limit operation or
-modification of the work as a means of enforcing, against the work's
-users, your or third parties' legal rights to forbid circumvention of
-technological measures.
-
-  4. Conveying Verbatim Copies.
-
-  You may convey verbatim copies of the Program's source code as you
-receive it, in any medium, provided that you conspicuously and
-appropriately publish on each copy an appropriate copyright notice;
-keep intact all notices stating that this License and any
-non-permissive terms added in accord with section 7 apply to the code;
-keep intact all notices of the absence of any warranty; and give all
-recipients a copy of this License along with the Program.
-
-  You may charge any price or no price for each copy that you convey,
-and you may offer support or warranty protection for a fee.
-
-  5. Conveying Modified Source Versions.
-
-  You may convey a work based on the Program, or the modifications to
-produce it from the Program, in the form of source code under the
-terms of section 4, provided that you also meet all of these conditions:
-
-    a) The work must carry prominent notices stating that you modified
-    it, and giving a relevant date.
-
-    b) The work must carry prominent notices stating that it is
-    released under this License and any conditions added under section
-    7.  This requirement modifies the requirement in section 4 to
-    "keep intact all notices".
-
-    c) You must license the entire work, as a whole, under this
-    License to anyone who comes into possession of a copy.  This
-    License will therefore apply, along with any applicable section 7
-    additional terms, to the whole of the work, and all its parts,
-    regardless of how they are packaged.  This License gives no
-    permission to license the work in any other way, but it does not
-    invalidate such permission if you have separately received it.
-
-    d) If the work has interactive user interfaces, each must display
-    Appropriate Legal Notices; however, if the Program has interactive
-    interfaces that do not display Appropriate Legal Notices, your
-    work need not make them do so.
-
-  A compilation of a covered work with other separate and independent
-works, which are not by their nature extensions of the covered work,
-and which are not combined with it such as to form a larger program,
-in or on a volume of a storage or distribution medium, is called an
-"aggregate" if the compilation and its resulting copyright are not
-used to limit the access or legal rights of the compilation's users
-beyond what the individual works permit.  Inclusion of a covered work
-in an aggregate does not cause this License to apply to the other
-parts of the aggregate.
-
-  6. Conveying Non-Source Forms.
-
-  You may convey a covered work in object code form under the terms
-of sections 4 and 5, provided that you also convey the
-machine-readable Corresponding Source under the terms of this License,
-in one of these ways:
-
-    a) Convey the object code in, or embodied in, a physical product
-    (including a physical distribution medium), accompanied by the
-    Corresponding Source fixed on a durable physical medium
-    customarily used for software interchange.
-
-    b) Convey the object code in, or embodied in, a physical product
-    (including a physical distribution medium), accompanied by a
-    written offer, valid for at least three years and valid for as
-    long as you offer spare parts or customer support for that product
-    model, to give anyone who possesses the object code either (1) a
-    copy of the Corresponding Source for all the software in the
-    product that is covered by this License, on a durable physical
-    medium customarily used for software interchange, for a price no
-    more than your reasonable cost of physically performing this
-    conveying of source, or (2) access to copy the
-    Corresponding Source from a network server at no charge.
-
-    c) Convey individual copies of the object code with a copy of the
-    written offer to provide the Corresponding Source.  This
-    alternative is allowed only occasionally and noncommercially, and
-    only if you received the object code with such an offer, in accord
-    with subsection 6b.
-
-    d) Convey the object code by offering access from a designated
-    place (gratis or for a charge), and offer equivalent access to the
-    Corresponding Source in the same way through the same place at no
-    further charge.  You need not require recipients to copy the
-    Corresponding Source along with the object code.  If the place to
-    copy the object code is a network server, the Corresponding Source
-    may be on a different server (operated by you or a third party)
-    that supports equivalent copying facilities, provided you maintain
-    clear directions next to the object code saying where to find the
-    Corresponding Source.  Regardless of what server hosts the
-    Corresponding Source, you remain obligated to ensure that it is
-    available for as long as needed to satisfy these requirements.
-
-    e) Convey the object code using peer-to-peer transmission, provided
-    you inform other peers where the object code and Corresponding
-    Source of the work are being offered to the general public at no
-    charge under subsection 6d.
-
-  A separable portion of the object code, whose source code is excluded
-from the Corresponding Source as a System Library, need not be
-included in conveying the object code work.
-
-  A "User Product" is either (1) a "consumer product", which means any
-tangible personal property which is normally used for personal, family,
-or household purposes, or (2) anything designed or sold for incorporation
-into a dwelling.  In determining whether a product is a consumer product,
-doubtful cases shall be resolved in favor of coverage.  For a particular
-product received by a particular user, "normally used" refers to a
-typical or common use of that class of product, regardless of the status
-of the particular user or of the way in which the particular user
-actually uses, or expects or is expected to use, the product.  A product
-is a consumer product regardless of whether the product has substantial
-commercial, industrial or non-consumer uses, unless such uses represent
-the only significant mode of use of the product.
-
-  "Installation Information" for a User Product means any methods,
-procedures, authorization keys, or other information required to install
-and execute modified versions of a covered work in that User Product from
-a modified version of its Corresponding Source.  The information must
-suffice to ensure that the continued functioning of the modified object
-code is in no case prevented or interfered with solely because
-modification has been made.
-
-  If you convey an object code work under this section in, or with, or
-specifically for use in, a User Product, and the conveying occurs as
-part of a transaction in which the right of possession and use of the
-User Product is transferred to the recipient in perpetuity or for a
-fixed term (regardless of how the transaction is characterized), the
-Corresponding Source conveyed under this section must be accompanied
-by the Installation Information.  But this requirement does not apply
-if neither you nor any third party retains the ability to install
-modified object code on the User Product (for example, the work has
-been installed in ROM).
-
-  The requirement to provide Installation Information does not include a
-requirement to continue to provide support service, warranty, or updates
-for a work that has been modified or installed by the recipient, or for
-the User Product in which it has been modified or installed.  Access to a
-network may be denied when the modification itself materially and
-adversely affects the operation of the network or violates the rules and
-protocols for communication across the network.
-
-  Corresponding Source conveyed, and Installation Information provided,
-in accord with this section must be in a format that is publicly
-documented (and with an implementation available to the public in
-source code form), and must require no special password or key for
-unpacking, reading or copying.
-
-  7. Additional Terms.
-
-  "Additional permissions" are terms that supplement the terms of this
-License by making exceptions from one or more of its conditions.
-Additional permissions that are applicable to the entire Program shall
-be treated as though they were included in this License, to the extent
-that they are valid under applicable law.  If additional permissions
-apply only to part of the Program, that part may be used separately
-under those permissions, but the entire Program remains governed by
-this License without regard to the additional permissions.
-
-  When you convey a copy of a covered work, you may at your option
-remove any additional permissions from that copy, or from any part of
-it.  (Additional permissions may be written to require their own
-removal in certain cases when you modify the work.)  You may place
-additional permissions on material, added by you to a covered work,
-for which you have or can give appropriate copyright permission.
-
-  Notwithstanding any other provision of this License, for material you
-add to a covered work, you may (if authorized by the copyright holders of
-that material) supplement the terms of this License with terms:
-
-    a) Disclaiming warranty or limiting liability differently from the
-    terms of sections 15 and 16 of this License; or
-
-    b) Requiring preservation of specified reasonable legal notices or
-    author attributions in that material or in the Appropriate Legal
-    Notices displayed by works containing it; or
-
-    c) Prohibiting misrepresentation of the origin of that material, or
-    requiring that modified versions of such material be marked in
-    reasonable ways as different from the original version; or
-
-    d) Limiting the use for publicity purposes of names of licensors or
-    authors of the material; or
-
-    e) Declining to grant rights under trademark law for use of some
-    trade names, trademarks, or service marks; or
-
-    f) Requiring indemnification of licensors and authors of that
-    material by anyone who conveys the material (or modified versions of
-    it) with contractual assumptions of liability to the recipient, for
-    any liability that these contractual assumptions directly impose on
-    those licensors and authors.
-
-  All other non-permissive additional terms are considered "further
-restrictions" within the meaning of section 10.  If the Program as you
-received it, or any part of it, contains a notice stating that it is
-governed by this License along with a term that is a further
-restriction, you may remove that term.  If a license document contains
-a further restriction but permits relicensing or conveying under this
-License, you may add to a covered work material governed by the terms
-of that license document, provided that the further restriction does
-not survive such relicensing or conveying.
-
-  If you add terms to a covered work in accord with this section, you
-must place, in the relevant source files, a statement of the
-additional terms that apply to those files, or a notice indicating
-where to find the applicable terms.
-
-  Additional terms, permissive or non-permissive, may be stated in the
-form of a separately written license, or stated as exceptions;
-the above requirements apply either way.
-
-  8. Termination.
-
-  You may not propagate or modify a covered work except as expressly
-provided under this License.  Any attempt otherwise to propagate or
-modify it is void, and will automatically terminate your rights under
-this License (including any patent licenses granted under the third
-paragraph of section 11).
-
-  However, if you cease all violation of this License, then your
-license from a particular copyright holder is reinstated (a)
-provisionally, unless and until the copyright holder explicitly and
-finally terminates your license, and (b) permanently, if the copyright
-holder fails to notify you of the violation by some reasonable means
-prior to 60 days after the cessation.
-
-  Moreover, your license from a particular copyright holder is
-reinstated permanently if the copyright holder notifies you of the
-violation by some reasonable means, this is the first time you have
-received notice of violation of this License (for any work) from that
-copyright holder, and you cure the violation prior to 30 days after
-your receipt of the notice.
-
-  Termination of your rights under this section does not terminate the
-licenses of parties who have received copies or rights from you under
-this License.  If your rights have been terminated and not permanently
-reinstated, you do not qualify to receive new licenses for the same
-material under section 10.
-
-  9. Acceptance Not Required for Having Copies.
-
-  You are not required to accept this License in order to receive or
-run a copy of the Program.  Ancillary propagation of a covered work
-occurring solely as a consequence of using peer-to-peer transmission
-to receive a copy likewise does not require acceptance.  However,
-nothing other than this License grants you permission to propagate or
-modify any covered work.  These actions infringe copyright if you do
-not accept this License.  Therefore, by modifying or propagating a
-covered work, you indicate your acceptance of this License to do so.
-
-  10. Automatic Licensing of Downstream Recipients.
-
-  Each time you convey a covered work, the recipient automatically
-receives a license from the original licensors, to run, modify and
-propagate that work, subject to this License.  You are not responsible
-for enforcing compliance by third parties with this License.
-
-  An "entity transaction" is a transaction transferring control of an
-organization, or substantially all assets of one, or subdividing an
-organization, or merging organizations.  If propagation of a covered
-work results from an entity transaction, each party to that
-transaction who receives a copy of the work also receives whatever
-licenses to the work the party's predecessor in interest had or could
-give under the previous paragraph, plus a right to possession of the
-Corresponding Source of the work from the predecessor in interest, if
-the predecessor has it or can get it with reasonable efforts.
-
-  You may not impose any further restrictions on the exercise of the
-rights granted or affirmed under this License.  For example, you may
-not impose a license fee, royalty, or other charge for exercise of
-rights granted under this License, and you may not initiate litigation
-(including a cross-claim or counterclaim in a lawsuit) alleging that
-any patent claim is infringed by making, using, selling, offering for
-sale, or importing the Program or any portion of it.
-
-  11. Patents.
-
-  A "contributor" is a copyright holder who authorizes use under this
-License of the Program or a work on which the Program is based.  The
-work thus licensed is called the contributor's "contributor version".
-
-  A contributor's "essential patent claims" are all patent claims
-owned or controlled by the contributor, whether already acquired or
-hereafter acquired, that would be infringed by some manner, permitted
-by this License, of making, using, or selling its contributor version,
-but do not include claims that would be infringed only as a
-consequence of further modification of the contributor version.  For
-purposes of this definition, "control" includes the right to grant
-patent sublicenses in a manner consistent with the requirements of
-this License.
-
-  Each contributor grants you a non-exclusive, worldwide, royalty-free
-patent license under the contributor's essential patent claims, to
-make, use, sell, offer for sale, import and otherwise run, modify and
-propagate the contents of its contributor version.
-
-  In the following three paragraphs, a "patent license" is any express
-agreement or commitment, however denominated, not to enforce a patent
-(such as an express permission to practice a patent or covenant not to
-sue for patent infringement).  To "grant" such a patent license to a
-party means to make such an agreement or commitment not to enforce a
-patent against the party.
-
-  If you convey a covered work, knowingly relying on a patent license,
-and the Corresponding Source of the work is not available for anyone
-to copy, free of charge and under the terms of this License, through a
-publicly available network server or other readily accessible means,
-then you must either (1) cause the Corresponding Source to be so
-available, or (2) arrange to deprive yourself of the benefit of the
-patent license for this particular work, or (3) arrange, in a manner
-consistent with the requirements of this License, to extend the patent
-license to downstream recipients.  "Knowingly relying" means you have
-actual knowledge that, but for the patent license, your conveying the
-covered work in a country, or your recipient's use of the covered work
-in a country, would infringe one or more identifiable patents in that
-country that you have reason to believe are valid.
-
-  If, pursuant to or in connection with a single transaction or
-arrangement, you convey, or propagate by procuring conveyance of, a
-covered work, and grant a patent license to some of the parties
-receiving the covered work authorizing them to use, propagate, modify
-or convey a specific copy of the covered work, then the patent license
-you grant is automatically extended to all recipients of the covered
-work and works based on it.
-
-  A patent license is "discriminatory" if it does not include within
-the scope of its coverage, prohibits the exercise of, or is
-conditioned on the non-exercise of one or more of the rights that are
-specifically granted under this License.  You may not convey a covered
-work if you are a party to an arrangement with a third party that is
-in the business of distributing software, under which you make payment
-to the third party based on the extent of your activity of conveying
-the work, and under which the third party grants, to any of the
-parties who would receive the covered work from you, a discriminatory
-patent license (a) in connection with copies of the covered work
-conveyed by you (or copies made from those copies), or (b) primarily
-for and in connection with specific products or compilations that
-contain the covered work, unless you entered into that arrangement,
-or that patent license was granted, prior to 28 March 2007.
-
-  Nothing in this License shall be construed as excluding or limiting
-any implied license or other defenses to infringement that may
-otherwise be available to you under applicable patent law.
-
-  12. No Surrender of Others' Freedom.
-
-  If conditions are imposed on you (whether by court order, agreement or
-otherwise) that contradict the conditions of this License, they do not
-excuse you from the conditions of this License.  If you cannot convey a
-covered work so as to satisfy simultaneously your obligations under this
-License and any other pertinent obligations, then as a consequence you may
-not convey it at all.  For example, if you agree to terms that obligate you
-to collect a royalty for further conveying from those to whom you convey
-the Program, the only way you could satisfy both those terms and this
-License would be to refrain entirely from conveying the Program.
-
-  13. Use with the GNU Affero General Public License.
-
-  Notwithstanding any other provision of this License, you have
-permission to link or combine any covered work with a work licensed
-under version 3 of the GNU Affero General Public License into a single
-combined work, and to convey the resulting work.  The terms of this
-License will continue to apply to the part which is the covered work,
-but the special requirements of the GNU Affero General Public License,
-section 13, concerning interaction through a network will apply to the
-combination as such.
-
-  14. Revised Versions of this License.
-
-  The Free Software Foundation may publish revised and/or new versions of
-the GNU General Public License from time to time.  Such new versions will
-be similar in spirit to the present version, but may differ in detail to
-address new problems or concerns.
-
-  Each version is given a distinguishing version number.  If the
-Program specifies that a certain numbered version of the GNU General
-Public License "or any later version" applies to it, you have the
-option of following the terms and conditions either of that numbered
-version or of any later version published by the Free Software
-Foundation.  If the Program does not specify a version number of the
-GNU General Public License, you may choose any version ever published
-by the Free Software Foundation.
-
-  If the Program specifies that a proxy can decide which future
-versions of the GNU General Public License can be used, that proxy's
-public statement of acceptance of a version permanently authorizes you
-to choose that version for the Program.
-
-  Later license versions may give you additional or different
-permissions.  However, no additional obligations are imposed on any
-author or copyright holder as a result of your choosing to follow a
-later version.
-
-  15. Disclaimer of Warranty.
-
-  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
-APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
-HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
-OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
-IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
-ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
-
-  16. Limitation of Liability.
-
-  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
-WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
-THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
-GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
-USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
-DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
-PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
-EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGES.
-
-  17. Interpretation of Sections 15 and 16.
-
-  If the disclaimer of warranty and limitation of liability provided
-above cannot be given local legal effect according to their terms,
-reviewing courts shall apply local law that most closely approximates
-an absolute waiver of all civil liability in connection with the
-Program, unless a warranty or assumption of liability accompanies a
-copy of the Program in return for a fee.
-
-                     END OF TERMS AND CONDITIONS
-
-            How to Apply These Terms to Your New Programs
-
-  If you develop a new program, and you want it to be of the greatest
-possible use to the public, the best way to achieve this is to make it
-free software which everyone can redistribute and change under these terms.
-
-  To do so, attach the following notices to the program.  It is safest
-to attach them to the start of each source file to most effectively
-state the exclusion of warranty; and each file should have at least
-the "copyright" line and a pointer to where the full notice is found.
-
-    <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) <year>  <name of author>
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-Also add information on how to contact you by electronic and paper mail.
-
-  If the program does terminal interaction, make it output a short
-notice like this when it starts in an interactive mode:
-
-    <program>  Copyright (C) <year>  <name of author>
-    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
-    This is free software, and you are welcome to redistribute it
-    under certain conditions; type `show c' for details.
-
-The hypothetical commands `show w' and `show c' should show the appropriate
-parts of the General Public License.  Of course, your program's commands
-might be different; for a GUI interface, you would use an "about box".
-
-  You should also get your employer (if you work as a programmer) or school,
-if any, to sign a "copyright disclaimer" for the program, if necessary.
-For more information on this, and how to apply and follow the GNU GPL, see
-<https://www.gnu.org/licenses/>.
-
-  The GNU General Public License does not permit incorporating your program
-into proprietary programs.  If your program is a subroutine library, you
-may consider it more useful to permit linking proprietary applications with
-the library.  If this is what you want to do, use the GNU Lesser General
-Public License instead of this License.  But first, please read
-<https://www.gnu.org/licenses/why-not-lgpl.html>.
+The algos in this repository are partially based on Shared Content from the Quantopian Platform as defined in the Quantopian Terms of Use and Quantopian's Privacy Policy (https://www.quantopian.com/policies).
+
+For Shared Content, the Quantopian Terms of Use state: “If you choose to post, display or otherwise make your Content available in the Common Areas, such Content is considered Shared Content. By so posting any of your Content in Common Areas of the Site and Services, you hereby grant to Quantopian, users of the Site or any other Quantopian platform, and other Members a worldwide, sublicensable, assignable, royalty-free, fully paid, perpetual, irrevocable right and license to make, have made, use, reproduce, modify, translate, distribute, transmit, create derivative works of, perform, display, import, and otherwise exploit, without the requirement to make any payment to you or the need to seek any third party permission, such Content in any form, media, or technology, whether now known or hereafter devised or developed, and to allow others to do the same, but at all times, in accordance with Quantopian’s Privacy Policy.”
+
+The permission for the Content in this repository as defined in the Quantopian Terms of Use is hereby granted in accordance with Quantopian’s Terms of Use and Quantopians Privacy Policy, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Content.
+
+THE CONTENT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE CONTENT OR THE USE OR OTHER DEALINGS IN THE CONTENT.
+
+'---------------------------------------------------------------------
+
+Quantopian’s Privacy Policy
+Last revised: June 15, 2018.
+
+Quantopian is both a platform and a community. It's a place to write and test trading algorithms. It's a place to meet other algorithm writers, to share algorithms, ideas, strategies, and trading experiences. Quantopian, Inc. ("Quantopian", "we" or "us") is committed to protecting your privacy. We have prepared this Privacy Policy to describe to you our practices regarding the Personal Information (as defined below) we collect from users of our website, located at quantopian.com, ("Site") and related Services (as defined in the Terms of Use). If you simply browse the Site, you are referred to in this Privacy Policy as a "Visitor". If you have registered with the Site and receive Services, you are referred to in this Privacy Policy as a "Member". Capitalized terms not defined in this Privacy Policy have the meanings given in our Terms of Use located at https://www.quantopian.com/policies/terms.
+1. User Consent
+By submitting Personal Information through our Site or Services, you agree to the terms of this Privacy Policy and you expressly consent to the collection, use and disclosure of the Personal Information in accordance with this Privacy Policy.
+2. A Note to Users Outside of the United States.
+If you are a non U.S. user of the Site or Services, by visiting the Site and/or providing us with information, you acknowledge and agree that your Personal Information may be processed for the purposes identified in the Privacy Policy. In addition, your Personal Information may be transferred to and processed and stored in the country in which it was collected and in other countries, including the United States, where laws regarding processing of Personal Information may be less stringent than the laws in your country. Your information may be available to government authorities under lawful orders and law applicable in such jurisdictions. By providing your information, you consent to such transfer.
+3. Children
+Our Services and Site are not directed to children and children are not eligible to use our Services. Protecting the privacy of children is very important to us. We do not collect or maintain Personal Information from people we actually know are under 13 years of age without verifiable parental consent. If we later learn that a user is under 13 years of age, we will take steps to remove that user's Personal Information from our databases and to prevent the user from utilizing the Site and the Services.
+4. Types of Information We Collect.
+So that we are clear about the terminology we are using, when we refer to "Personal Information" we mean information that allows someone to identify or contact you, including, for example, your name, address, telephone number, e-mail address, as well as any other non-public information about you that is associated with or linked to any of the foregoing information. When we refer to "Anonymous Information" we mean information that is not associated with or linked to your Personal Information. Anonymous Information does not enable identification of or contact with individual persons.
+Information You Provide to Us. 
+Visitors and Members
+lf you provide us feedback or contact us via e-mail, we will collect your name and e-mail address, as well as any other content included in the e-mail, in order to send you a reply.
+When you participate in one of our surveys, we may collect additional information.
+We may also collect Personal Information on the Site or through the Services when we make clear that we are collecting it and you voluntarily provide it, for example when you submit an application for employment.
+Members Only 
+We may collect Personal Information from you, such as your first and last name, physical mailing address, phone, e-mail address, age, credit card number, ethnicity, gender, marital status, education level, interests, hobbies and password when you create an account on the Site ("Account").
+ln order to receive certain Services, you may provide a credit card number or other payment card information. Quantopian uses Stripe, Inc. to process orders for such services that are made through the Site. Therefore, such information will also be governed by Stripe, Inc.'s privacy policy, which can be viewed at https://stripe.com/us/privacy.
+ln order to provide our Services, you may also provide us with Content (as defined in the Terms of Use).
+We retain information on your behalf and for compliance purposes, such information includes files and messages that you store using your Account and/or when you create a profile (your "Profile").
+Information Collected via Technology.
+To make our Site and Services more useful to you, our servers (which may be hosted by a third party service provider) collect information from you, including your browser type, operating system, Internet Protocol (IP) address (a number that is automatically assigned to your computer when you use the Internet, which may vary from session to session), and domain name.
+We also use cookies and URL information to gather information regarding the date and time of your visit, the website URL you were visiting immediately before you came to our Site and the website URL you visit as you leave our Site and the information for which you searched and which you viewed. "Cookies" are small pieces of information that a website sends to your computer’s web browser while you are viewing a website. We may use both session Cookies (which expire once you close your web browser) and persistent Cookies (which stay on your computer until you delete them) to provide you with a more personal and interactive experience on our Site. Persistent Cookies can be removed by following Internet browser help file directions; please note that certain aspects of the Site or Services may not be available if the Persistent Cookies are removed.
+We may use third party service providers to help us analyze certain online activities. For example, these service providers may help us analyze visitor activity on the Site. We may permit these service providers to use cookies and other technologies to perform these services for us.
+If you are logged into the Site or Services, the information collected via technology as described in this Section may be associated with your Personal Information and will, accordingly, be treated as Personal Information in accordance with this Privacy Policy.
+We collect and store performance data generated by your algorithms when you use the platform to backtest, paper trade, and live trade.
+We may generate additional performance data from your algorithms for the purposes of (a) verifying that software platform changes do not change or break your algorithm and/or (b) analyzing standardized performance results. </ol> </ol>
+5. Our Relationship with Social Networking Sites
+We have created and may offer you interfaces that allow you to connect with social networking websites such as Facebook ("SN Site") through our Site. We will work with the SN Site’s application protocol interface (better known as their developer API) in a way that allows you to authorize us to access your account on that SN Site on your behalf. In order to provide this authorization, you will not provide us with your user name or password to the SN Site, but you will need to log-in to that SN Site directly through our Site. Once authorized by you, the SN Site will provide us a token that allows the SN Site to recognize us when we ask, on your behalf, for access to your account information or to post information. You will be able to revoke our access to any SN Site at any time by amending the appropriate settings from within your account settings on the applicable SN Site, though such revocation may limit the Services we are able to provide you.
+6. Use of Personal Information
+Your Personal Information.
+In general, Personal Information you submit to us regarding you or your company is used either to respond to requests that you make, or to aid us in serving you better. We use such Personal Information in the following ways:
+to publish such Personal Information to Visitors, Members of the Site and Services, and visitors to other Quantopian sites and platforms, but only when you make such Personal Information available in Common Areas of the Site and Services
+to facilitate communication with other Members of the Site and Services Services and other third parties that you designate to receive your Personal Information when you communicate with them through the Site and Services
+to facilitate the creation of and secure your Account on our network;
+to identify you as a user in our system;
+to provide improved administration of our Site and Services;
+to provide the Services you request;
+to improve the quality of experience when you interact with our Site and Services;
+to send you a welcome e-mail to verify ownership of the e-mail address provided when your Account was created;
+to send you administrative e-mail notifications, such as security or support and maintenance advisories;
+to respond to your inquiries related to employment opportunities or other requests;
+to make telephone calls to you, from time to time, as a part of secondary fraud protection or to solicit your feedback;
+to suggest contacting (or friending) other Members of the Site that you may know;
+to send newsletters, surveys, offers, and other promotional materials related to our Services and for other purposes;
+to contact you regarding opportunities to compensate you for your algorithm's performance;
+to share anonymized and/or aggregated algorithm performance statistics with third parties, for example potential investors or for marketing purposes;
+if you have opted in, to share with other organizations to help them contact you for marketing purposes;
+to share with our affiliates as permitted by applicable law; and
+to market products, services and events to you that we believe may be of interest, both on and off the Site.
+Creation of Anonymous Information. We may create Anonymous Information records from Personal Information by excluding information (such as the name) that makes the information personally identifiable to the data subject. We use this Anonymous Information to analyze request and usage patterns so that we may enhance the content of our Services and improve Site navigation. Quantopian reserves the right to use Anonymous Information for any purpose and disclose Anonymous Information to third parties at its sole discretion.
+7. Disclosure of Your Personal Information.
+We disclose your Personal Information as described below and as described elsewhere in this Privacy Policy.
+Visitors and Members of the Site.
+As noted above in the How We Use Your Personal Information Section, we publish your Personal Information on the Site and Services on Common Areas of the Site and Services (and other Quantopian platforms and sites) and facilitate communication with other Members of the Site (and other third parties) as you direct us through the Services. 
+Profile.
+Members have the opportunity to create a Profile on the Site and Services. Basic Profiles are available to all Visitors. Advanced profile features may permit the ability to make your advanced Profile available to all Visitors, to only Members or keep your Profile so it is not displayed to Visitors or Members.
+Third Party Service Providers.
+We may share your Personal Information with third party service providers to: provide you with the Services that we offer you through our Site; conduct quality assurance testing; facilitate creation of Accounts; process any payments; provide technical support; and/or provide other services to the Quantopian. These third party service providers are required not to use your Personal Information other than to provide the services requested by Quantopian. We may disclose certain Personal Information to third parties to whom you ask us to send Personal Information, including to other Members or Visitors with whom you are collaborating. 
+Third Party Brokers.
+ln addition, some of our Services may enable you to use third party APIs to make securities trades. If you choose to do this, we will provide information to such APIs in accordance with your elections. You acknowledge and agree that you are solely responsible for your use of those websites and that it is your responsibility to review the terms of use and privacy policy of the third party provider of such APIs. We will not be responsible or liable for: (i) the availability or accuracy of such APIs; (ii) the content, products or services on or availability of such APIs; or (iii) your use of any such APIs.
+Affiliates and Acquisitions.
+We may share some or all of your Personal Information with our subsidiaries, joint ventures, or other companies under a common control ("Affiliates"), in which case we will require our Affiliates to honor this Privacy Policy. If another company acquires our company, business, or our assets (including in connection with a bankruptcy proceeding), that company will possess the Personal Information collected by us and will assume the rights and obligations regarding the Personal Information as described in this Privacy Policy. We may share some or all of your Personal Information in connection with or during negotiation of any merger, financing, acquisition or dissolution, transaction or proceeding involving sale, transfer, divestiture, or disclosure of all or a portion of our business or assets. 
+Other Disclosures.
+Regardless of any choices you make regarding your Personal Information (as described below), Quantopian may disclose Personal Information if it believes in good faith that such disclosure is necessary (i) in connection with any legal investigation; (ii) to comply with relevant laws or to respond to subpoenas or warrants served on Quantopian; (iii) to protect or defend the rights or property of Quantopian or users of the Services; and/or (iv) to investigate or assist in preventing any violation or potential violation of the law, this Privacy Policy, or Terms of Use. 
+8. Third Party Websites.
+When you click on a link to any other website or location, you will leave our Site and go to another site and another entity may collect Personal Information or Anonymous Information from you. We have no control over, do not review, and cannot be responsible for, these outside websites or their content. Please be aware that the terms of this Privacy Policy do not apply to these outside websites or content, or to any collection of information after you click on links to such outside websites.
+9. Control of Your Personal Information —Marketing Choices, Access, Correction, and Deletion
+Marketing Choices.
+We will periodically send you free newsletters and e-mails that directly promote the use of our Site or Services. In some jurisdictions, such as the EU, we will only send you promotional materials with your express consent. When you receive newsletters or promotional communications from us, you may indicate a preference to stop receiving further communications from us and you will have the opportunity to "opt-out" by following the unsubscribe instructions: (i) provided in the e-mail you receive, (ii) on the Site or (iii) by contacting us directly (please see contact information below). Even if you opt-out of receiving marketing related email messages, we will continue to send you Service related communications, including notices related to your Account or any updates to our Terms of Use or Privacy Policy. 
+Access and Correction.
+You have the right to access or change any of the Personal Information in your Account that you provide to us by editing your profile within your Account or by sending an e-mail to us at the e-mail address set forth below. If you wish to change the Personal Information we have received through an SN Site, you must change such Personal Information on the SN Site. After a short period of time, changes in your Personal Information made on the SN Site will appear on the Site and the Services. 
+Deletion Rights. You may request deletion of your Personal Information by us, but please note that we may be required to keep this information and not delete it (or to keep this information for a certain time, in which case we will comply with your deletion request only after we have fulfilled such requirements). When we delete any information, it will be deleted from the active database, but may remain in our archives. We may retain your information for fraud investigation or similar purposes.
+Termination. If you choose to close your Account, your profile and other public Personal Information will be removed from the site. Some public activity, such as sharing of algorithms, will not be removed automatically and will only be removed at the discretion of Quantopian, as covered in the Terms of Use (Proprietary Rights and other sections). 
+10. Retention of Personal Information.
+Personal information that we collect, access or process will be retained only as long as necessary for the fulfilment of the purposes for which it was collected, unless required or authorized by law or another legitimate interest of Quantopian. Personal Information that is no longer required to fulfill the identified purposes will be destroyed, erased or made de-identified.
+11. Security of Your Personal Information.
+Quantopian is committed to protecting the security of your Personal Information. We use a variety of industry-standard security technologies and procedures to help protect your Personal Information from unauthorized access, use, or disclosure. No method of transmission over the Internet, or method of electronic storage, is 100% secure, however. Therefore, while Quantopian uses reasonable efforts to protect your Personal Information, Quantopian cannot guarantee its absolute security. We also require you to enter a password to access your Account information. Please do not disclose your Account password to unauthorized people.
+12. Your California Privacy Rights
+If you are a California resident, you may contact us to request information about circumstances in which we share certain personal information with third parties for their own direct marketing purposes and allow third parties to collect such information. For make this request or questions, please contact us as indicated in the “Contact Information” section of this Policy.
+13. Response to "Do Not Track" Signals
+Some Internet browsers include the ability to transmit "Do Not Track" signals. Since uniform standards for "Do Not Track" signals have not yet been adopted, Quantopian does not process or respond to "Do Not Track" signals.
+14. Right to Lodge Complaints
+We are transparent about the ways in which we collect and use your Personal Information, and welcome your questions and concerns. If you have any concern or complaint about the way we handle your personal information, please contact us as described below.
+To the extent you believe we have not addressed your concerns or otherwise choose to do so, you have the right to lodge a complaint with a supervisory authority in the country where you reside and/or the United States. You may contact the US Federal Trade Commission regarding your concerns. For more information, please see https://www.ftc.gov/faq/consumer-protection/submit-consumer-complaint-ftc. If you reside in the European Union, you can also get more information by contacting the EU Data Protection Supervisor, please see https://edps.europa.eu/data-protection/our-role-supervisor/complaints_en
+15. Contact Information.
+Quantopian welcomes your comments or questions regarding this Privacy Policy. Please e-mail us at feedback@quantopian.com or contact us at the following address:
+Quantopian
+Attn: Member Support
+100 Franklin St., 5th Floor
+Boston MA 02110
+16. Changes to This Privacy Policy.
+This Privacy Policy is subject to occasional revision, and if we make any substantive changes in the way we use your Personal Information, we will notify you by sending you an e-mail to the last e-mail address you provided to us and/or by prominently posting notice of the changes on our Site. Further, if the changes are material, we will give you the opportunity to affirmatively consent to such changes. Any other changes to this Privacy Policy will be effective upon the earlier of thirty (30) calendar days following our dispatch of an e-mail notice to you or thirty (30) calendar days following our posting of notice of the changes on our Site. These changes will be effective immediately for new users of our Service. Please note that at all times you are responsible for updating your Personal Information to provide us with your most current e-mail address. In the event that the last e-mail address that you have provided us is not valid, or for any reason is not capable of delivering to you the notice described above, our dispatch of the e-mail containing such notice will nonetheless constitute effective notice of the changes described in the notice. In any event, changes to this Privacy Policy may affect our use of Personal Information that you provided us prior to our notification to you of the changes. Unless affirmative consent is requested, if you do not wish to permit changes in our use of your Personal Information, you must notify us prior to the effective date of the changes that you wish to deactivate your Account with us or that you desire a specific opt-out of disclosed uses in this Privacy Policy. Some opt-out requests may require Quantopian to deactivate your Account in its sole discretion. Continued use of our Site or Service, following notice of such changes shall indicate your acknowledgment of such changes and agreement to be bound by the terms and conditions of such changes.
+
+'---------------------------------------------------------------------
+
+Quantopian Terms Of Use
+Last revised: December 17, 2019.
+
+INTRODUCTION
+Welcome to Quantopian. Quantopian is both a web-based platform and a community. As a platform, it’s a place to write and test trading algorithms. As a community, it’s a place to meet other algorithm writers and to share algorithms, tools, ideas, strategies, and trading experiences. By sharing algorithms and other content, members of the Quantopian community can use, adapt, and learn from each other. Your access and use of Quantopian, including your use and adaptation of algorithms and other content shared by other members of the Quantopian community are subject to the Terms of Use set forth below.
+We encourage you to share your algorithms and other Content (as defined below) you own, and we encourage you to use, adapt, and learn from others’ shared algorithms and other Content. You may, however, as a Member, decide to keep private some or all of the Content that you upload to, or write on, Quantopian, including algorithms that you write and test on Quantopian. If you choose to keep some or all of your Content private, we will respect that decision, subject to our Privacy Policy and these Terms of Use. You can access our Privacy Policy through the privacy policy link posted at the bottom of our home page https://www.quantopian.com or by going directly to https://www.quantopian.com/policies#privacy.
+AGREEMENT
+These Terms of Use constitute a legally binding agreement between Quantopian Inc. ("Quantopian", "us" or "we") and you ("you"), the individual listed in the account registration form the completion of which requires you to click the applicable "I Agree" box, and sets forth the terms and conditions that govern your use of Quantopian.com (the "Site") and/or any related services (the "Services") accessed through the Site.
+We refer to these Terms of Use as the "Agreement." We may update or amend these Terms of Use from time to time by posting such updates or amendments to the Site and/or by providing you with notification of such changes by email. Your use of the Site or any Services after we post any such updates or amendments will constitute your agreement to those updates and/or amendments.
+THIS AGREEMENT REQUIRES THE USE OF ARBITRATION ON AN INDIVIDUAL BASIS TO RESOLVE DISPUTES, RATHER THAN JURY TRIALS OR CLASS ACTIONS, AND ALSO LIMITS THE REMEDIES AVAILABLE TO YOU IN THE EVENT OF A DISPUTE.
+PLEASE CAREFULLY READ THESE TERMS OF USE BEFORE ACCESSING THE SITE OR USING ANY OF THE SERVICES. IF YOU DO NOT WISH TO BE BOUND BY THESE TERMS AND CONDITIONS OR IF YOU CANNOT REMAIN IN COMPLIANCE WITH SUCH TERMS AND CONDITIONS, YOU MAY NOT ACCESS THE SITE OR USE ANY OF THE SERVICES AND SHOULD IMMEDIATELY CEASE SUCH ACCESS AND USE.
+1. Limited License; Use of Services.
+Provided that you agree with and comply fully with the provisions of this Agreement, Quantopian grants to you a non-exclusive and non-transferable limited right and license to access the Site and use the Services only for the following purposes: (1) your personal use; (2) educational use at not-for-profit schools, colleges, and universities; and (3) to the extent Quantopian has otherwise expressly authorized in a separate written agreement, applicable to you, for internal business or other purposes. Any and all uses not expressly authorized above or elsewhere in this Agreement are prohibited; and to be clear, this Agreement does not allow you to use the Quantopian Site or Services to provide any content or services to a third party for commercial purposes. Certain features of the Site or Services are available only to users who register for a Quantopian account ("Members").
+You acknowledge and understand that we provide Content, tools and infrastructure designed to allow you to learn, create, test, and use your algorithms and algorithmic trading strategies. To be clear, to the extent Quantopian provides any Content or information containing algorithms or strategies, these are for educational purposes only and should not be regarded as a suggestion to engage in or refrain from any investment-related course of action. You can create your own algorithms or use algorithms made available on the Site as Shared Content (as defined below). Our responsibility for your algorithms or your use of algorithms provided as Shared Content is only as provided herein.
+2. Accounts, Passwords and Security.
+To become a Member, you must complete the registration process by providing Quantopian with current, complete and accurate personally identifiable information, including, without limitation, your real name and the email address through which we can correspond with you, as prompted by the applicable registration form. Additionally, you agree to provide Quantopian with current, complete and accurate information about your accounts maintained at other web sites, to the extent provided in response to the requests in our "add account" setup forms. You further agree to keep any registration information you provide to Quantopian current, complete and accurate. Please read our Privacy Policy, which is available at https://www.quantopian.com/policies#privacy, for more information about our information collection and use practices. Individuals under the age of 13 are not permitted to register for any account or use other interactive features of the Site. As part of the registration process, you are asked to select a username and password. You are entirely responsible for maintaining the security and confidentiality of your account information, including your username and password. FURTHERMORE, YOU ARE ENTIRELY RESPONSIBLE FOR ANY AND ALL ACTIVITIES AND CONDUCT, WHETHER BY YOU OR ANYONE ELSE, THAT ARE CONDUCTED THROUGH YOUR ACCOUNT. We may hold you liable for any losses incurred by Quantopian or any other party due to someone else’s use of your account or password. You agree to notify Quantopian immediately upon your becoming aware of any unauthorized use of your account or any other breach of security involving your account. Quantopian will not be liable for any loss that you or any other party may incur as a result of someone else’s use of your password or account, either with or without your knowledge.
+3. Prohibited Activities.
+We use the term "Content" to mean entire or partial algorithms, code and code segments, trading strategies, data transformations, data analysis and manipulation functions, tools, software, data, databases, text, lectures, messages, images, graphics, video files, audio files, ideas and other information and materials. We use the term "Shared Content" to mean the Content (other than third party data) that we, you, or other Members of Quantopian post in "Common Areas" which are areas accessible to all Members of the Site and Services, but do not include areas accessible only to you, such as your private algorithms and personal account pages, or areas where you allow only selected Members to access your Content. Third party data is subject to the terms and conditions of the provider of such data. Other than as provided at the end of this Section in respect of Shared Content, you acknowledge and agree that you will not:
+copy, modify, publish, transmit, distribute, transfer or sell, create derivative works of, or in any way exploit, any of the Content accessible through the Site not submitted or provided by you, including by use of any robot, spider, scraper, scripting, deep link or other similar automated data gathering or extraction tools, program, algorithm or methodology, unless you obtain Quantopian’s prior written consent;
+use the Site or Services to advertise, market, sell, or otherwise promote any commercial enterprise that you own, are employed by or are otherwise compensated by, either directly or indirectly;
+use any engine, software, tool, agent or other device or mechanism to navigate or search the Site, other than the search engines and agents available through the Service and other than generally available third party web browsers;
+copy, reverse engineer, reverse assemble, otherwise attempt to discover the source code, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer or sell any data, software, or other Content, information, products or services obtained through the Site or the Services;
+access the Site or use the Services by any means other than through Quantopian-provided or approved interfaces;
+post, upload, or transmit any Content that is unlawful, harmful, threatening, abusive, harassing, tortious, defamatory, vulgar, obscene, libelous, or otherwise objectionable or which may invade another's right of privacy or publicity;
+post, upload, or transmit any data or other Content that contains a virus, worm, Trojan horse, or any other contaminating or destructive feature;
+post, upload, or transmit data or other Content in violation of any law, rule, regulation, code, statute, ordinance, order of any court or other governmental authority, or any agreement or fiduciary relationship, including but not limited to proprietary or confidential information of others;
+use any of the Site’s or Service's communications features in a manner that adversely affects the availability of its Content or resources to other users;
+post, upload, or transmit any unsolicited advertising, promotional materials, "junk mail", "spam," "chain letters," "pyramid schemes" or any other form of solicitation or any non-resumé information such as opinions or notices, commercial or otherwise;
+access or use the Site or Services to intentionally or unintentionally violate any applicable local, state, national or international law, including, but not limited to, regulations promulgated under any such law;
+post, upload, or transmit any data or other Content that infringes, violates or misappropriates any patent, trademark, service mark, trade secret, copyright or other proprietary rights of any third party or violates a third party’s right of privacy or publicity;
+manipulate or otherwise display or obstruct portions of the Site and/or the Services by using framing or similar navigational technology;
+register, subscribe, attempt to register, attempt to subscribe, unsubscribe, or attempt to unsubscribe, any party for any Quantopian product or Service if you are not expressly authorized by such party to do so;
+use the Site and/or the Services for any purpose that is unlawful or prohibited by these terms and conditions;
+use the Site or the Services in any manner that could damage, disable, overburden or impair Quantopian’s servers or networks, or interfere with any other user's use and enjoyment of the Site and/or the Services;
+attempt to gain unauthorized access to any of the Site, Services, accounts, computer systems or networks connected to Quantopian through hacking, password mining or any other means;
+obtain or attempt to obtain any Content through any means not intentionally made available to you by Quantopian or as provided as Shared Content through the Site or the Services; or
+knowingly provide any Content that is false or inaccurate or will become false or inaccurate at any time.
+Notwithstanding the prohibition on any of the above activities, we want to foster a community where Members exchange and share Content that they have the right to make public. Accordingly, you are permitted to copy, modify, use, comment on and / or republish, both on and off the Site and Services, reasonable amounts of Shared Content posted by another Member or by Quantopian for the following purposes consistent with our mission to help people write, test and improve their algorithms: (1) your personal use; (2) educational use at not-for-profit schools, colleges, and universities; and (3) to the extent Quantopian has expressly authorized in a separate written agreement, applicable to you, for internal business or other purposes. If you do copy, modify, comment on or republish Shared Content posted by another Member or Quantopian, you must (a) attribute authorship of that Shared Content to such Member or Quantopian and (b) provide the link to the appropriate URL on the Site at which you accessed the Shared Content. All comments that you post to the Site should be respectful of others and in all cases subject to the restrictions and guidelines of good behavior outlined in this Section 3. To be clear, the license to copy, modify and / or republish any Content that you have not authored is limited to the Shared Content posted by another Member or by Quantopian for the above-stated purposes and use. You are not permitted, and are expressly prohibited from copying, modifying, and republishing the Content of Quantopian and its other Members except as expressly permitted above. Should a question arise in the future as to what does or does not constitute Shared Content, or how it may be used, you may contact us per the last bullet of Section 16 of this Agreement. We also reserve the right to provide public or individual notice about this issue and in any case Quantopian’s decision about Shared Content will control.
+We reserve the right to cancel your account with us, without any notice to you as provided in Section 19, if we suspect any violation of any of the terms of this Agreement.
+4. No Liability for Shared Content or Third Party Content.
+A portion of the Content contained on the Site or Services not in the nature of Shared Content may be supplied by third parties ("Third Party Content"), including, without limitation, data providers, advertisers, and Members. Quantopian is a distributor (and not a publisher) of such Third Party Content. Except to the extent that Quantopian seeks to enforce its rights under any of the terms of this Agreement, Quantopian does not have editorial control over any Shared Content or Third Party Content. Any reliance you place on Shared Content or Third Party Content is therefore at your own risk. Any Shared Content, Third Party Content, including, without limitation, such Content in the nature of opinions, advice, statements, services, offers, data or other information, expressed or made available on the Site or through the Services are those of the respective authors or distributors thereof, and not Quantopian. Neither Quantopian nor any third-party provider or distributor of data on or through the Site or Services guarantees, endorses, or is otherwise responsible or liable for the accuracy, completeness, timeliness, reliability, availability, or usefulness of any Content accessible through the Site or Services. Quantopian may remove any Content, Shared Content, or Third Party Content suspected to be in violation of the terms of this Agreement.
+5. Proprietary Rights.
+You retain ownership of all Content you submit, post, display, or otherwise make available on the Site or Services.
+As further described below, in using the Site and Services, you may choose to: (1) make your Content available to all Members as Shared Content; (2) make your Content available to selected Members as Collaborative Content; or (3) make your Content available only to you as Private Content. Quantopian will use reasonable best efforts to safeguard and use your Content as described in this Agreement and Privacy Policy.
+If you choose to post, display or otherwise make your Content available in the Common Areas, such Content is considered Shared Content. By so posting any of your Content in Common Areas of the Site and Services, you hereby grant to Quantopian, users of the Site or any other Quantopian platform, and other Members a worldwide, sublicensable, assignable, royalty-free, fully paid, perpetual, irrevocable right and license to make, have made, use, reproduce, modify, translate, distribute, transmit, create derivative works of, perform, display, import, and otherwise exploit, without the requirement to make any payment to you or the need to seek any third party permission, such Content in any form, media, or technology, whether now known or hereafter devised or developed, and to allow others to do the same, but at all times, in accordance with Quantopian’s Privacy Policy. You represent that: (i) you have the necessary rights to grant Quantopian and other Members the license to use your Shared Content as described in the preceding sentence of this paragraph and (ii) all Shared Content is true, accurate, current and complete. The license you grant to Quantopian, as described in this paragraph, continues even if you stop using the Site and Services.
+By contrast, when you choose to keep your Content private, we will use reasonable best efforts to keep your Content private. All Content that you do not post, display, or otherwise make available in Common Areas or share with any other selected Member(s) is treated as "Private Content," unless expressly noted otherwise; this includes your account information, algorithms, datasets, and other Content that only you can access. Quantopian will not review, share, or otherwise make use of Private Content except as specifically provided in our Privacy Policy or this Agreement. With respect to this Agreement, Quantopian may access, reproduce, store, delete, review, share, or otherwise make use of Private Content in the following circumstances (including in source code or similar form):
+If necessary in the course of providing technical support or other maintenance of the Site or Services; provided that, wherever possible, any access by Quantopian for technical support or maintenance purposes will be restricted to the very specific technical purpose relevant to such support or maintenance;
+In order to comply with any applicable legal or regulatory requirements or order of any court order or governmental authority;
+In the event that we consider, in our discretion, that such Content may present a security risk;
+In the event that we consider, in our discretion, that such Content may constitute a violation of the Terms of Use, including an infringement or misappropriation of any third party right or other unauthorized use of Third Party Content; or 
+In the event that we consider, in our discretion, that such Content may be relevant to Quantopian’s defense in any legal proceeding. 
+Additionally, in accordance with Quantopian's efforts to support the creation of high-quality strategies in which to invest, we may review the results of your backtests and the performance and other "data exhaust" of your Content (such results, performance data, and other data exhaust, collectively, "Performance Data"). Such Performance Data includes, but is not restricted to, returns and risk measurements of any backtest executed with the Content. We may generate additional Performance Data or other information from your Content for the purposes of (a) verifying that software platform changes do not change or break your algorithm or (b) analyzing standardized performance results. You further agree that Quantopian may reproduce, store, and create derivative works from your Private Content or other Content necessary to evaluate your algorithm. Any testing, evaluation, reproduction or other use will be done with the spirit and intent of protecting your Content. We may also share anonymized and/or aggregated Performance Data with third parties. Any such external or third party sharing or usage of Performance Data will not be authorized in the extent that sharing or usage of Performance Data would reveal the details and workings of the underlying Content.
+With regard to your Private Content, you grant Quantopian a worldwide, sublicensable, assignable, royalty-free, fully paid, perpetual, irrevocable license to use your Private Content as described in this Agreement, including as discussed in this section. Further, with respect to your Private Content, you represent that: (i) you have the necessary rights to grant Quantopian the license to use your Private Content as described in this Agreement; and (ii) the Private Content does not violate any of Quantopian’s Terms of Use. The limited license you grant to Quantopian regarding use of your Private Content continues even if you stop using the Site and Services.
+To the extent you choose to post, display or otherwise make your Content available to any selected Member(s), but do not otherwise make such content available in Common Areas, such content is considered "Collaborative Content." You hereby grant Quantopian a worldwide, sublicensable, assignable, royalty-free, fully paid, perpetual, irrevocable license to use your Collaborative Content for all uses applicable to your Private Content as well as any other uses (such as reproduction, display, and transmission) necessary to facilitate sharing of your Collaborative Content with the Members with whom you choose to collaborate. Further, you represent that: (i) you have the necessary rights to grant Quantopian the license to use your Collaborative Content as described in this Agreement; and (ii) the Collaborative Content does not violate any of Quantopian’s Terms of Use. The limited license you grant to Quantopian regarding use of your Collaborative Content continues even if you stop using the Site and Services. 
+Additionally, with regard to your Collaborative Content, you represent to Quantopian that: (i) you have the necessary rights to grant the other selected Member(s) with whom you choose to collaborate such access and use of your Collaborative Content as you may permit; and (ii) such access and use does not violate any of Quantopian’s Terms of Use. Other business or legal terms relevant to your collaboration, such as scope of use, licensing, ownership, or other relevant rights and obligations with respect to your Collaborative Content and derivatives, if any, are to be addressed between you and the Member(s) with whom you choose to collaborate, all subject Quantopian’s Terms of Use. 
+You understand and acknowledge that (i) the software, code, proprietary methods and systems used to provide the Site or Services, (ii) the design, look and feel of our template reports, (iii) the graphical elements of our template reports, (iv) the Content (other than the Content submitted by you or on your behalf or Shared Content owned by you or other Members), and (v) any intellectual property therein (collectively, "Our Intellectual Property") may not be copied, modified, reproduced, republished, posted, or transmitted by you unless it is Shared Content; and no Content, including Shared Content owned by Quantopian, but excluding Content submitted by you or on your behalf may be sold, offered for sale, or redistributed by you in a commercial manner without our prior written permission and the prior written permission of our applicable licensors (if applicable). You acknowledge and agree that Our Intellectual Property is the sole property of Quantopian or its licensors. You must abide by all copyright notices, licensing terms, information, or restrictions, as amended, as applicable to any of Our Intellectual Property. Nothing in this Agreement grants you any right to receive delivery of a copy of Our Intellectual Property or to obtain access to Our Intellectual Property except as generally and ordinarily permitted through the Site according to this Agreement. Furthermore, nothing in this Agreement will be deemed to grant, by implication, estoppel or otherwise, a license to Our Intellectual Property beyond the limited license granted under the terms of this Agreement. Certain of the names, logos, and other materials displayed on the Site or in the Services constitute trademarks, trade names, service marks or logos ("Marks") of Quantopian or other entities. You are not authorized to use any such Marks. Ownership of all such Marks and the goodwill associated therewith remains with us or those other entities. Any use of third party software provided in connection with the Site or Services will be governed by such third parties’ licenses and not by this Agreement.
+6. Feedback.
+In the event that you provide us any ideas, thoughts, criticisms, suggested improvements or other feedback related to our Site or Services (collectively "Feedback"), you agree we may use the Feedback to modify our products and services (and the products and services of our affiliates) and that you will not be due any compensation, including any royalty related to the product or service that incorporates your Feedback. You grant to us a worldwide, sublicensable, assignable, royalty-free, fully paid, perpetual, irrevocable right and license to make, have made, use, reproduce, modify, translate, distribute, transmit, create derivative works of, perform, display, import, sell, offer for sale, make, have made and otherwise exploit, without the requirement to make any payment to you or to any third party or the need to seek any third party permission, the Feedback in any form, media, or technology, whether now known or hereafter devised or developed, and to allow others to do the same. This is true whether you provide the Feedback in any Content submitted publicly or privately, email or any other method of communication with us unless we have entered into a separate written mutual agreement with you that provides otherwise.
+7. Social Networks.
+In using certain Services, you authorize us to act on your behalf to access and interact with social networking sites such as Facebook and Twitter (any such site, a "SN Site") to retrieve Content and information from, and/or submit information to, such SN Sites at your request. We will not collect your username and password for any such SN Site, and we will instead store the unique authorization code (or a "token") provided to us by the SN Site to access it on your behalf. You can revoke our access to an SN Site at any time by amending the appropriate settings from within your account settings on that site and/or on our Site. You should note that an SN Site may change or amend its guidelines and our access to it at any time, and we cannot guarantee that our Services will always include a connection to such SN Site. Further, you may be able to edit your privacy settings for the Content that you post which appears on SN Site by making selections in your "Edit Profile" settings via the Site and Services. You represent and warrant that you will comply at all times with the relevant terms and conditions of any SN Site in using our Site and Services. You also agree to follow each SN Site’s code of conduct (where applicable) when interacting with content from and posting Content to such SN Site and to file an abuse report with the applicable SN Site for Content which violates the code of conduct or terms of use for that third party site.
+8. Privacy and Security.
+We are committed to your privacy and security. For more information, you should review our Privacy Policy at https://www.quantopian.com/policies#privacy. By agreeing to these Terms of Use, you acknowledge that you understand that "perfect security" cannot be attained on the Internet, and that you understand and agree that we only agree to take reasonable steps to help ensure the security of your personal information and that such steps do not guarantee that the Site and the Services are invulnerable to all security breaches or immune from viruses, security threats or other vulnerabilities. We do not warrant that your information will be secure.
+9. Disclaimer of Warranties.
+THE SITE AND THE SERVICES, AND ANY CONTENT, TOOLS, PRODUCTS OR SERVICES DISPLAYED, ACCESSED OR OBTAINED ON OR THROUGH THE SITES AND SERVICES ARE PROVIDED "AS IS", "AS AVAILABLE", AND WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF TITLE, NON-INFRINGEMENT, SYSTEM INTEGRATION, AVAILABILITY, INTEGRITY, RELIABILITY OR TRANSMISSION OR RESPONSE TIME, DATA ACCURACY, AVAILABILITY, COMPLETENESS, RELIABILITY OR TIMELINESS, SUITABILITY OF CONTENT OR SERVICES, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, QUANTOPIAN AND ITS AFFILIATES, SUPPLIERS, AND AGENTS DO NOT WARRANT AND EXPRESSLY DISCLAIM THAT: (i) YOUR USE OF THE SITES AND/OR SERVICES AND ACCESS TO AND USE OF ALL OF THE TOOLS AND FEATURES THEREON WILL BE UNINTERRUPTED, TIMELY, ERROR-FREE, OR SECURE, (ii) THAT ANY INFORMATION OBTAINED THEREIN IS ACCURATE, RELIABLE, COMPLETE OR TIMELY, (iii) THAT DEFECTS WILL BE CORRECTED, OR (iv) THAT ANY SOFTWARE, SERVICES, SITES OR SERVER(S) ON WHICH THE SERVICES AND SITES ARE HOSTED ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. YOUR USE OF THE SITE AND THE SERVICES AND ANY CONTENT PROVIDED ON OR THROUGH THE SITES AND SERVICES ARE ENTIRELY AT YOUR OWN RISK, AND YOU SHALL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR PROPERTY OR PERSON, INCLUDING, BUT NOT LIMITED TO, YOUR COMPUTER SYSTEM AND ANY DEVICE YOU USE TO ACCESS THE QUANTOPIAN SITE, SERVICES OR BROKERAGE CONNECTION SERVICES, OR ANY OTHER LOSS THAT RESULTS FROM ACCESSING SUCH CONTENT. From time to time, we may offer new "beta" features or tools with which Members may experiment. Such features or tools are offered solely for experimental purposes and without any warranty of any kind, and may be modified or discontinued at our sole discretion. The provisions of this Section apply with full force to such features or tools.
+YOU ACKNOWLEDGE AND AGREE THAT WE ARE NOT LIABLE, AND YOU AGREE NOT TO SEEK TO HOLD US LIABLE, FOR THE CONDUCT OF THIRD PARTIES, INCLUDING OPERATORS OF OTHER SITES ACCESSIBLE THROUGH THE SITE OR SERVICES, AND THAT THE RISK OF INJURY FROM SUCH THIRD PARTIES RESTS ENTIRELY WITH YOU. WE MAKE NO WARRANTY THAT ANY GOODS OR SERVICES PROVIDED BY THIRD PARTIES IN CONNECTION WITH YOUR ACCESS AND USE OF THE SITE AND SERVICES WILL MEET YOUR REQUIREMENTS OR BE AVAILABLE ON AN UNINTERRUPTED, SECURE, OR ERROR-FREE BASIS. WE MAKE NO WARRANTY REGARDING THE QUALITY OF ANY SUCH GOODS OR SERVICES, OR THE ACCURACY, TIMELINESS, TRUTHFULNESS, COMPLETENESS OR RELIABILITY OF ANY USER CONTENT OBTAINED THROUGH THE SITE AND/OR THE SERVICES.
+YOU ARE SOLELY RESPONSIBLE FOR ALL OF YOUR CONTENT AND COMMUNICATIONS AND INTERACTIONS WITH OTHER USERS OF THE SITE AND SERVICES. OTHER THAN TO EVALUATE THE PERFORMANCE OF ALGORITHMS FOR COMPLIANCE WITH OUR CONTEST RULES AND POSSIBLE ALLOCATION TO YOU UNDER SEPARATE LICENSE, YOU UNDERSTAND THAT WE DO NOT MAKE ANY ATTEMPT TO VERIFY ANY CONTENT POSTED ON THE SITE BY YOU OR ANY OTHER USERS.
+THE DISCLAIMERS SET FORTH ABOVE ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN US AND YOU.
+10. Investment Disclaimer.
+You acknowledge and understand that the Services are not intended to supply investment, financial, tax or legal advice. The Services are not investment advice and any observations concerning any security, trading algorithm or investment strategy provided in the Services is not a recommendation to buy, sell or hold such investment or security or to make any other investment decisions. We offer no advice regarding the nature, potential value, risk or suitability of any particular investment strategy, trading algorithm, transaction, security or investment. You acknowledge and agree that any use of the Services, any decisions made in reliance on the Services, including any trading or investment decisions or strategies, are made at your own risk.
+If investment, trading or other professional advice is required, the services of a competent, licensed professional should be sought. No employee, agent or representative of Quantopian is authorized to provide any such advice pursuant to this Agreement, and any such advice, if given, is in violation of Quantopian's policies, is unauthorized and may not be relied upon.
+11. Morningstar Fundamental Data and other Data Disclaimer.
+Certain of the data contained in the Quantopian Site and Services: (1) is proprietary to Morningstar Inc. and/or its content providers; (2) may not be copied or distributed; and (3) is not warranted to be accurate, complete or timely. Neither Morningstar nor its content providers are responsible for any damages or losses arising from any use of this data. Past performance is no guarantee of future results. Other third party data providers have similar limitations and their own terms and conditions of use. By using such data at the Quantopian Site or with the Services you are agreeing to be bound by their applicable terms and conditions.
+12. Professional Advice Disclaimer.
+Our Services are meant as an aid to assist you in organizing and managing your financial information. NEITHER QUANTOPIAN NOR THE SERVICE IS INTENDED TO PROVIDE LEGAL, TAX OR FINANCIAL ADVICE. QUANTOPIAN IS NOT A FINANCIAL PLANNER, BROKER OR TAX ADVISOR. Your financial situation is unique, and any information obtained through the Service may not be appropriate for your situation. The use and interpretation of the Services requires skill and judgment, and you shall at all times exercise your own judgment in the use of the Services.
+13. Limitation of Liability.
+YOU ACKNOWLEDGE AND AGREE THAT WE ARE ONLY WILLING TO PROVIDE ACCESS TO THE SITE AND TO PROVIDE THE SERVICES IF YOU AGREE TO CERTAIN LIMITATIONS OF OUR LIABILITY TO YOU AND TO THIRD PARTIES. NEITHER QUANTOPIAN NOR ITS DIRECTORS, OFFICERS, EMPLOYEES, CONTRACTORS, AGENTS OR SPONSORS ARE RESPONSIBLE OR LIABLE TO YOU OR ANYONE ELSE FOR ANY LOSS OR INJURY OR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, EXEMPLARY, PUNITIVE OR OTHER DAMAGES UNDER ANY CONTRACT, NEGLIGENCE, STRICT LIABILITY OR OTHER THEORY ARISING OUT OF OR RELATING IN ANY WAY TO (i) THE USE OF, DELAYS IN OPERATION, TRANSMISSION OR RESPONSE OF, OR INABILITY TO USE THE SITE OR THE SERVICES; (ii) ANY CONTENT CONTAINED ON THE SITES AND/OR THE SERVICES; (iii) STATEMENTS OR CONDUCT POSTED OR MADE PUBLICLY AVAILABLE ON THE SITES AND/OR THE SERVICES; (iv) ANY PRODUCT OR SERVICE PURCHASED OR OBTAINED THROUGH THE SITES; (v) ANY ACTION TAKEN IN RESPONSE TO OR AS A RESULT OF ANY INFORMATION AVAILABLE ON THE SITES OR THE SERVICES; (vi) ANY DAMAGE CAUSED BY MISTAKES, INACCURACIES, OMISSIONS, ERRORS, INTERRUPTIONS OR LOSS OF ACCESS TO, DELETION OF, FAILURE TO STORE, FAILURE TO BACK UP, OR ALTERATION OF ANY CONTENT ON THE SITES OR THE SERVICES, OR (vii) ANY OTHER FAILURE OF PERFORMANCE OF THE SITE OR SERVICES OR OTHER MATTER RELATING TO THE SITE AND/OR THE SERVICES, IN EACH CASE WHETHER OR NOT CAUSED BY EVENTS BEYOND THE CONTROL OF OUR DIRECTORS, OFFICERS, EMPLOYEES, CONTRACTORS, AGENTS OR SPONSORS, INCLUDING, BUT NOT LIMITED TO, ACTS OF NATURE, COMMUNICATIONS LINE FAILURE, THEFT, DESTRUCTION, OR UNAUTHORIZED ACCESS TO THE SITE OR SERVICES OR CONTENT STORED THEREIN. IN NO EVENT SHALL QUANTOPIAN'S TOTAL LIABILITY TO YOU FOR ANY AND ALL DAMAGES, LOSSES, AND CAUSES OF ACTION (WHETHER IN CONTRACT, TORT, STATUTORY, OR OTHERWISE) EXCEED THE GREATER OF: (i) ONE HUNDRED DOLLARS ($100.00) OR (ii) THE TOTAL AMOUNT PAID OR PAYABLE BY YOU TO US, IF ANY, FOR USING ANY OF THE SERVICES OR THE SITE IN THE THREE (3) MONTHS PRIOR TO THE DATE ON WHICH YOU FIRST ASSERT A CLAIM. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR EXCLUSION OF CERTAIN TYPES OF LIABILITY. ACCORDINGLY, SOME OF THE ABOVE LIMITATIONS AND DISCLAIMERS MAY NOT APPLY TO YOU. TO THE EXTENT THAT WE MAY NOT, AS A MATTER OF APPLICABLE LAW, DISCLAIM ANY IMPLIED WARRANTY OR LIMIT LIABILITIES, THE SCOPE AND DURATION OF SUCH WARRANTY AND THE EXTENT OF OUR LIABILITY WILL BE THE MINIMUM PERMITTED UNDER SUCH APPLICABLE LAW.
+14. Indemnification.
+You agree to indemnify, defend, and hold Quantopian and its subsidiaries, affiliates, officers, directors, agents, co-branders, sponsors, distributors, or other partners, employees, and representatives harmless from and against any and all claims, demands, actions, causes of action, damages, losses, costs or expenses (including reasonable attorneys' fees and disbursements) which arise or relate, directly or indirectly, out of, from or to (i) your breach or alleged breach of this Agreement; (ii) your violation or alleged violation of any applicable law, regulation, or order of a court or other governmental authority; (iii) any Content that you upload, post, or otherwise make available on Quantopian, including Content that is alleged to or does: (a) violate any fiduciary or confidentiality obligations to a third party or (b) infringe, misappropriate, or otherwise violate the copyright, trade secret, trademark or other intellectual property rights, privacy or publicity rights, or any other rights of a third party, or (iv) access or use of the Site and/or the Services by you or anyone using your Quantopian account. You agree to fully cooperate with Quantopian in the defense of any claim. Quantopian reserves the right to assume the exclusive defense and control of any matter subject to indemnification by you, and you will not in any event settle any claim without Quantopian’s prior written consent. This Section shall survive in the event this Agreement is terminated for any reason.
+15. Release.
+To the extent permitted under applicable laws, you hereby release Quantopian from any liability related to: (a) any incorrect or inaccurate Content posted on the Services, whether caused by any user of the Services (including, without limitation, any Member) or by any of the equipment or programming associated with or utilized in the Services; (b) the conduct, whether online or offline, of any user of the Services or any other Quantopian platform (including, without limitation, any Member); (c) any loss or damage caused by Content posted on the Services or transmitted by and to Members, or any interactions between users of the Site or any other Quantopian platform or website (including, without limitation, any Member), whether online or offline; and (d) any error, omission, interruption, deletion, defect, delay in operation or transmission, communications line failure, theft or destruction or unauthorized access to, or alteration of, user or Member communications. If you are a California resident, you hereby waive California Civil Code Section 1542, which states: "A general release does not extend to claims which the creditor does not know or suspect to exist in his favor at the time of executing the release, which, if known by him must have materially affected his settlement with the debtor."
+16. Copyright Violations.
+If you believe that your work has been copied in a way that constitutes copyright infringement, please provide our copyright agent identified below the following information:
+An electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest;
+A description of the copyrighted work that you claim has been infringed;
+A description of where the material that you claim is infringing is located on the Site or Services;
+Your address, telephone number, and email address;
+A statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law; and
+A statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf.
+Our copyright agent for notice of claims of copyright infringement on the Site or the Services can be reached by mail at: Copyright Agent, Quantopian, Inc., Attn: Copyright Agent, 100 Franklin St., 5th Floor, Boston MA 02110, or via email at copyright@quantopian.com.
+17. Jurisdictional Issues.
+Quantopian makes no representation or warranty that the Content and information on the Site and/or the Services are appropriate or available or appropriate for use in locations outside the United States. Those who choose to access the Site or use the Services from other locations do so on their own initiative and at their own risk, and are responsible for compliance with local laws, if and to the extent applicable. Quantopian reserves the right, at any time in its sole discretion, to limit the availability and accessibility of the Site and/or the Services to any person, geographic area, or jurisdiction it so desires, and to limit the quantities of any such Service or products that it provides.
+18. Arbitration Agreement And Jury Trial Waiver, Class Action Waiver, And Forum Selection Clause.
+All controversies, disputes, demands, counts, claims, or causes of action between you and Quantopian arising out of, under, or related to these Terms of Use or our privacy practices (including any action we take or authorize with respect to information about or provided by you) shall be settled exclusively through binding arbitration.
+Arbitration shall be subject to the Federal Arbitration Act and not any state arbitration law. The arbitration shall be conducted before one commercial arbitrator with substantial experience in resolving commercial contract disputes from the American Arbitration Association ("AAA"). As modified by these Terms of Use, and unless agreed upon by the parties in writing, the arbitration will be governed by the AAA’s Commercial Arbitration Rules and, if the arbitrator deems them applicable, the Supplementary Procedures for Consumer Related Disputes (collectively "Rules and Procedures").
+You are thus GIVING UP YOUR RIGHT TO GO TO COURT to assert or defend your rights under this contract EXCEPT for matters that may be taken to small claims court. Your rights will be determined by a NEUTRAL ARBITRATOR and NOT a judge or jury. You are entitled to a FAIR HEARING, BUT the arbitration procedures are SIMPLER AND MORE LIMITED THAN RULES APPLICABLE IN COURT. Arbitrator decisions are as enforceable as any court order and are subject to VERY LIMITED REVIEW BY A COURT.
+You and Quantopian must abide by the following rules: (i) for any claim that could otherwise be brought in small claims court, the arbitration shall be conducted solely based on written submissions and, if the arbitrator deems it appropriate, a telephonic hearing; (ii) if the claim exceeds what can be recovered in a small claims court, the arbitration shall be conducted solely based on written submissions or a telephonic hearing, unless the arbitrator deems a face-to-face hearing is appropriate, in which case one should be held at a location agreed to by you and Quantopian, and if the parties cannot agree on a location for the hearing, the arbitrator will determine a location for the proceedings which is reasonably convenient to both parties with due consideration of their ability to travel and other pertinent circumstances; (iii) the arbitrator’s ruling is binding and not merely advisory; (iv) ANY CLAIMS BROUGHT BY YOU OR QUANTOPIAN MUST BE BROUGHT IN THE PARTIES’ INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING; (v) THE ARBITRATOR MAY NOT CONSOLIDATE MORE THAN ONE PERSON’S CLAIMS, AND MAY NOT OTHERWISE PRESIDE OVER ANY FORM OF A REPRESENTATIVE OR CLASS PROCEEDING; (vi) in the event that you are able to demonstrate that the costs of arbitration will be prohibitive as compared to costs of litigation, Quantopian will pay as much of your filing and hearing fees in connection with the arbitration as the arbitrator deems necessary to prevent the arbitration from being cost-prohibitive as compared to the cost of litigation; (vii) Quantopian also reserves the right in its sole and exclusive discretion to assume responsibility for all of the costs of the arbitration; (viii) the arbitrator shall honor claims of privilege and privacy recognized at law; (ix) a decision by the arbitrator (including any finding of fact and/or conclusion of law) against either you or Quantopian shall be confidential unless otherwise required to be disclosed by law or by any administrative body and may not be collaterally used against either of them in existing or subsequent litigation or arbitration involving any other person/Quantopian customer; and (x) each side pays its own attorneys’ fees and expenses unless there is a statutory provision that requires the prevailing party to be paid its fees and litigation expenses.
+Notwithstanding the foregoing, either you or Quantopian may bring an individual action in small claims court. In addition, if you are a Member outside of the United States, the dispute resolution provision in our Privacy Statement (if any), and not this arbitration provision, shall apply to any disputes related to privacy. Further, claims of defamation, violation of the Computer Fraud and Abuse Act, and infringement or misappropriation of the other party’s patent, copyright, trademark, or trade secret shall not be subject to this arbitration provision. Such claims shall be exclusively brought (unless such courts do not have personal jurisdiction in the dispute) in the courts located in New York, New York. Additionally, notwithstanding this arbitration provision, either party may seek emergency equitable relief before such courts in order to maintain the status quo pending the arbitrator’s ruling, and hereby agree to submit to the personal jurisdiction of such courts. A request for interim measures shall not be deemed a waiver of the right to arbitrate.
+With the exception of subparts (iv) and (v) in the paragraph above (prohibiting arbitration on a class or collective basis), if any part of this arbitration provision is deemed to be invalid, unenforceable or illegal, or otherwise conflicts with the Rules and Procedures, then the balance of this arbitration provision shall remain in effect and shall be construed in accordance with its terms as if the invalid, unenforceable, illegal or conflicting provision were not contained herein. If, however, either subpart (c) or (d) is found to be invalid, unenforceable or illegal, then the entirety of this arbitration provision shall be null and void, and neither you nor Quantopian shall be entitled to arbitration. In the event this arbitration provision is held unenforceable by a court, or in the event AAA refuses to arbitrate the dispute, all controversies, disputes, demands, counts, claims, or causes of action between you and Quantopian shall be exclusively brought in the state or federal courts specified in subsection "(d)" above.
+For more information on AAA, its Rules and Procedures, and how to file an arbitration claim, you may call AAA at 800-778-7879 or visit the AAA website at http://www.adr.org.
+19. Termination.
+This Agreement shall remain effective until terminated in accordance with its own terms and conditions. You agree that Quantopian, in its sole discretion, may terminate your password, account (in whole or in part), or use of the Site or Services, and remove and discard any Content within the Sites, at any time and for any reason. You agree that any actions taken under this Section may be effective without prior notice to you. YOU AGREE THAT WE WILL NOT BE LIABLE TO YOU OR ANY OTHER PARTY FOR ANY TERMINATION OF YOUR ACCESS TO THE SITE OR SERVICES OR DELETION OF YOUR ACCOUNT OR YOUR UPLOADED CONTENT. In the event of termination, however, those Sections in this Agreement which, by their nature, survive termination of the Agreement shall so survive. Specifically, and without limitation, the licenses you have granted to Quantopian and to third parties to use any Content, Shared, Collaborative, and/or Private, submitted by you or through your account, survives the termination of this Agreement. Your license, as described in this Agreement, to use any Content and/or Shared Content owned by Quantopian does not survive the termination of this Agreement.
+20. General Information.
+This Agreement constitutes the entire agreement and understanding between you and Quantopian and governs your use of the Site and the Services, superseding any prior agreements between you and Quantopian. This Agreement and the relationship between you and Quantopian shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of law provisions. The failure of Quantopian to exercise or enforce any right or provision of this Agreement shall not constitute a waiver of such right or provision. If any provision of this Agreement is found by a court of competent jurisdiction to be unlawful, void or for any reason unenforceable, then that provision shall be deemed severed herefrom and shall not affect the validity and enforceability of any remaining provisions. The section titles in this Agreement are for convenience purposes only and have no legal or contractual effect. This Agreement is not assignable, transferable or sub-licensable by you. However, we may assign this Agreement to any third party whom we choose without your consent and/or without notice to you. No waiver by Quantopian of any breach or default hereunder shall be deemed a waiver of any preceding or subsequent breach or default. You acknowledge that we have the right hereunder to seek an injunction, if necessary, to stop or prevent a breach of your obligations hereunder.
+21. Electronic Communications.
+You acknowledge and understand that (a) we can only give you the benefits of accessing the Site and using the Services by conducting business through the Internet, and therefore we need you to consent to our giving you Communications (defined below) electronically, and (b) this Section 21 informs you of your rights when receiving Communications from us electronically. For contractual purposes, you: (i) consent to receive communications from us in an electronic form and (ii) agree that all terms and conditions, agreements, notices, documents, disclosures, and other communications ("Communications") that we provide to you electronically satisfy any legal requirement that such Communications would satisfy if they were in writing. Your consent to receive Communications and do business electronically, and our agreement to do so, applies to all of your interactions and transactions with us. The foregoing does not affect your non-waivable rights. You may also receive a copy of this Agreement. You may withdraw your consent to receive Communications electronically by contacting us in the manner described below. If you withdraw your consent, from that time forward, you must stop using the Site and Services. The withdrawal of your consent will not affect the legal validity and enforceability of any obligations or any electronic Communications provided or business transacted between us prior to the time you withdraw your consent. Please keep us informed of any changes in your email or mailing address so that you continue to receive all Communications without interruption.
+22. Modification to Services.
+We reserve the right to modify or discontinue the Site and any or all of the Servicess, including the Content and Shared Content owned by Quantopian, with or without notice to you. We will not be liable to you or any third party should we exercise our right to modify or discontinue the Site and/or any or all of the Services. If you object to any such changes, your sole recourse will be to cease access to the Site and/or Services, as applicable. Continued access to the Site and/or Services, as applicable, following notice of any such changes will indicate your acknowledgment of such changess; agreement to amended license terms, as applicable; and satisfaction with the Site and/or Services, as applicable, as so modified.
+23. Amendments and Modifications of this Agreement.
+Quantopian may amend or modify this Agreement from time to time and at any time. If any such amendment or modification is material, we will post notice of it on the Site’s home page, community forum, and/or by email to Members. Your access of the Site and use of the Services following any such amendment or modification shall be deemed your acceptance of such amendment and modification. You agree to review the Agreement periodically to be aware of such amendments and modifications.
