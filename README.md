@@ -16,9 +16,10 @@ Slippage / Commission used:
 * set_commission(commission.PerShare(cost=0.005, min_trade_cost=1.0))
 
 ## Other contributions
-https://quantopian-archive.netlify.app/
-https://archive.org/details/quantopian-archive
-https://archive.org/download/quantopian-archive
+Downloadable forum discussion and notebooks
+* https://quantopian-archive.netlify.app/
+* https://archive.org/details/quantopian-archive
+* https://archive.org/download/quantopian-archive
 
 ## Next Steps
 * Please contact me if you would like to get in touch to share and exchange trading ideas!
